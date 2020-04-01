@@ -15,6 +15,9 @@ Scans QR codes using the device's camera and returns a string value.
 ## Usage
 
 ~~~swift
+import UIKit
+import QRCodeScanner
+
 class MyViewController: UIViewController, QRCodeScanViewControllerDelegate {
 
     /// Start the QR code scan
