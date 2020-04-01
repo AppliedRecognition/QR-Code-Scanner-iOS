@@ -15,7 +15,7 @@ public class QRCodeScanViewController: UIViewController, AVCaptureMetadataOutput
     public var prompt: String?
     
     public static func create() -> QRCodeScanViewController {
-        let storyboard = UIStoryboard(name: "QRCode", bundle: Bundle(identifier: "com.appliedrec.QR-Code-Scanner"))
+        let storyboard = UIStoryboard(name: "QRCode", bundle: Bundle(for: QRCodeScanViewController.self))
         return storyboard.instantiateInitialViewController() as! QRCodeScanViewController
     }
     
