@@ -14,14 +14,8 @@ class CameraAccessDeniedViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         if let appName = Bundle.main.infoDictionary?[kCFBundleNameKey as String] as? String {
-            label.text = String(format: NSLocalizedString("Camera access denied. Please go to settings and enable camera for appName.", comment: ""), appName)
+            label.text = String(format: "Camera access denied. Please go to settings and enable camera for %@.", appName)
         }
-        // Do any additional setup after loading the view.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
     
     @IBAction func openSettings() {
@@ -29,15 +23,5 @@ class CameraAccessDeniedViewController: UIViewController {
             UIApplication.shared.open(settingsURL, options: [:], completionHandler: nil)
         }
     }
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }

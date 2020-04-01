@@ -19,7 +19,6 @@
 		3BBFF96D2434B68400C0BCD2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BBFF96B2434B68400C0BCD2 /* LaunchScreen.storyboard */; };
 		3BBFF9732434B88600C0BCD2 /* QRCodeScanner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BBFF93D2434B41100C0BCD2 /* QRCodeScanner.framework */; };
 		3BBFF9742434B88600C0BCD2 /* QRCodeScanner.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3BBFF93D2434B41100C0BCD2 /* QRCodeScanner.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		3BBFF97A2434BCC600C0BCD2 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3BBFF97C2434BCC600C0BCD2 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,7 +52,6 @@
 		3BBFF9482434B46C00C0BCD2 /* QRCodeScanViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRCodeScanViewController.swift; sourceTree = "<group>"; };
 		3BBFF9492434B46C00C0BCD2 /* CameraAccessDeniedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraAccessDeniedViewController.swift; sourceTree = "<group>"; };
 		3BBFF9552434B53400C0BCD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/QRCode.storyboard; sourceTree = "<group>"; };
-		3BBFF9572434B54000C0BCD2 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/QRCode.strings; sourceTree = "<group>"; };
 		3BBFF9582434B55400C0BCD2 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		3BBFF95E2434B68200C0BCD2 /* QR Code Scanner Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "QR Code Scanner Sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BBFF9602434B68200C0BCD2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -62,8 +60,6 @@
 		3BBFF9692434B68400C0BCD2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3BBFF96C2434B68400C0BCD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3BBFF96E2434B68400C0BCD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3BBFF97B2434BCC600C0BCD2 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
-		3BBFF97D2434BD1800C0BCD2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		3BBFF97E2434C24500C0BCD2 /* QR-Code-Scanner-iOS.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "QR-Code-Scanner-iOS.podspec"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -115,7 +111,6 @@
 				3BBFF9402434B41100C0BCD2 /* QR_Code_Scanner.h */,
 				3BBFF9412434B41100C0BCD2 /* Info.plist */,
 				3BBFF9582434B55400C0BCD2 /* Media.xcassets */,
-				3BBFF97C2434BCC600C0BCD2 /* Localizable.strings */,
 			);
 			path = "QR Code Scanner";
 			sourceTree = "<group>";
@@ -235,7 +230,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3BBFF97A2434BCC600C0BCD2 /* Localizable.strings in Resources */,
 				3BBFF9592434B55400C0BCD2 /* Media.xcassets in Resources */,
 				3BBFF9562434B53400C0BCD2 /* QRCode.storyboard in Resources */,
 			);
@@ -287,7 +281,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				3BBFF9552434B53400C0BCD2 /* Base */,
-				3BBFF9572434B54000C0BCD2 /* fr */,
 			);
 			name = QRCode.storyboard;
 			sourceTree = "<group>";
@@ -306,15 +299,6 @@
 				3BBFF96C2434B68400C0BCD2 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		3BBFF97C2434BCC600C0BCD2 /* Localizable.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3BBFF97B2434BCC600C0BCD2 /* fr */,
-				3BBFF97D2434BD1800C0BCD2 /* en */,
-			);
-			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

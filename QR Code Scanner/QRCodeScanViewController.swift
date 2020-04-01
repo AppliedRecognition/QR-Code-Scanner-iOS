@@ -24,7 +24,7 @@ public class QRCodeScanViewController: UIViewController, AVCaptureMetadataOutput
     }
     
     required init?(coder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
+        super.init(coder: coder)
     }
     
     @IBOutlet var cameraView: UIView!
