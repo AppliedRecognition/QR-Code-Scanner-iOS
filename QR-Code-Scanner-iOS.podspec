@@ -14,7 +14,7 @@ Pod::Spec.new do |spec|
   spec.license      = "MIT"
   spec.author       = "Applied Recognition, Inc."
   spec.platform     = :ios, "11.0"
-  spec.source       = { :git => "https://github.com/AppliedRecognition/QR-Code-Scanner-iOS.git", :commit => "56ef39fb0167f9b9e1c1a3db7a6fcb6621af7438" }
+  spec.source       = { :git => "https://github.com/AppliedRecognition/QR-Code-Scanner-iOS.git", :tag => "v#{spec.version}" }
   spec.source_files = "QR Code Scanner/*.swift"
   spec.resources    = "QR Code Scanner/**/*.{storyboard,strings}", "QR Code Scanner/*.xcassets"
   spec.swift_version = "5"
