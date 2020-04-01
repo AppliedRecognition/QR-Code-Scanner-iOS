@@ -1,0 +1,18 @@
+
+/* Class = "UILabel"; text = "Generating encryption key"; ObjectID = "9qU-bK-fJl"; */
+"9qU-bK-fJl.text" = "Generating encryption key";
+
+/* Class = "UILabel"; text = "Camera access on your device is restricted. Please contact the system administrator."; ObjectID = "NV9-3Y-dJa"; */
+"NV9-3Y-dJa.text" = "Camera access on your device is restricted. Please contact the system administrator.";
+
+/* Class = "UIButton"; normalTitle = "SETTINGS"; ObjectID = "RIk-vx-R8e"; */
+"RIk-vx-R8e.normalTitle" = "SETTINGS";
+
+/* Class = "UILabel"; text = "Please scan the QR code on your computer's screen."; ObjectID = "aFZ-zX-6H0"; */
+"aFZ-zX-6H0.text" = "Please scan the QR code on your computer's screen.";
+
+/* Class = "UINavigationItem"; title = "Scan Code"; ObjectID = "d0Z-d3-Eu5"; */
+"d0Z-d3-Eu5.title" = "Scan Code";
+
+/* Class = "UILabel"; text = "Camera access denied. Please go to settings and enable camera."; ObjectID = "ivo-nD-I5y"; */
+"ivo-nD-I5y.text" = "Camera access denied. Please go to settings and enable camera.";

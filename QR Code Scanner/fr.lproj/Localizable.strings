@@ -1,0 +1,8 @@
+/* 
+  Localized.strings
+  QR Code Scanner
+
+  Created by Jakub Dolejs on 01/04/2020.
+  Copyright © 2020 Applied Recognition. All rights reserved.
+*/
+"Camera access denied. Please go to settings and enable camera for appName." = "Accès à la caméra refusé. Veuillez aller aux paramètres et activer la caméra pour %@.";
