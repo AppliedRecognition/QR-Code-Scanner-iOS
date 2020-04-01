@@ -20,6 +20,7 @@
 		3BBFF9732434B88600C0BCD2 /* QRCodeScanner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BBFF93D2434B41100C0BCD2 /* QRCodeScanner.framework */; };
 		3BBFF9742434B88600C0BCD2 /* QRCodeScanner.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3BBFF93D2434B41100C0BCD2 /* QRCodeScanner.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		3BBFF97A2434BCC600C0BCD2 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3BBFF97C2434BCC600C0BCD2 /* Localizable.strings */; };
+		3BBFF97F2434C24500C0BCD2 /* QR-Code-Scanner-iOS.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 3BBFF97E2434C24500C0BCD2 /* QR-Code-Scanner-iOS.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +65,7 @@
 		3BBFF96E2434B68400C0BCD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3BBFF97B2434BCC600C0BCD2 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
 		3BBFF97D2434BD1800C0BCD2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		3BBFF97E2434C24500C0BCD2 /* QR-Code-Scanner-iOS.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "QR-Code-Scanner-iOS.podspec"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 		3BBFF9332434B41100C0BCD2 = {
 			isa = PBXGroup;
 			children = (
+				3BBFF97E2434C24500C0BCD2 /* QR-Code-Scanner-iOS.podspec */,
 				3BBFF93F2434B41100C0BCD2 /* QR Code Scanner */,
 				3BBFF95F2434B68200C0BCD2 /* QR Code Scanner Sample */,
 				3BBFF93E2434B41100C0BCD2 /* Products */,
@@ -234,6 +237,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3BBFF97A2434BCC600C0BCD2 /* Localizable.strings in Resources */,
+				3BBFF97F2434C24500C0BCD2 /* QR-Code-Scanner-iOS.podspec in Resources */,
 				3BBFF9592434B55400C0BCD2 /* Media.xcassets in Resources */,
 				3BBFF9562434B53400C0BCD2 /* QRCode.storyboard in Resources */,
 			);
